@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "CatCut",
+    "slug": "catcut",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/cat_icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/cat_icon.png",
+      "backgroundColor": "#0B0B0C"
+    },
+    "android": {
+      "package": "com.catvn.catcut",
+      "permissions": ["READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE"]
+    },
+    "ios": {
+      "bundleIdentifier": "com.catvn.catcut",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "CatCut cần quyền truy cập thư viện ảnh để chọn video chỉnh sửa."
+      }
+    },
+    "plugins": ["expo-dev-client"]
+  }
+}
