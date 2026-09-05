@@ -20,6 +20,12 @@
         "NSPhotoLibraryUsageDescription": "CatCut cần quyền truy cập thư viện ảnh để chọn video chỉnh sửa."
       }
     },
-    "plugins": ["expo-dev-client"]
+    "plugins": ["expo-dev-client"],
+    "owner": "catcuts-team",
+    "extra": {
+      "eas": {
+        "projectId": "c5230150-8f80-4fc4-a4e4-22c85f6dcfa1"
+      }
+    }
   }
 }
